@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Easy Word</title>
+</head>
+<body>
+    <section id="pageChanger">
+        <a href="./index.html">Input Manually</a>
+    </section>
+    <section class="section">
+        <h2>Choose Newspaper</p>
+        <input type="button" class="newspaper" id="star" value="Daily Star">
+        <input type="button" class="newspaper" id="bbc" value="BBC">
+        <input type="button" class="newspaper" id="alzazira" value="Alzazira">
+    </section>
+    <section>
+        <div class="specNewspaper">
+            <h3>New Words from Daily Star</h3>
+            <ol id="starOutput"></ol>
+            <h3>Picked Sentences</h3>
+            <ol id="starSentsOutput"></ol>
+            <input type="button" class="addBtn" id="starStock" value="Add Words To Stock">
+        </div> 
+        <div class="specNewspaper">
+            <h3>New Words from BBC</h3>
+            <ol id="bbcOutput"></ol>
+            <h3>Picked Sentences</h3>
+            <ol id="bbcSentsOutput"></ol>
+            <input type="button" class="addBtn" id="bbcStock" value="Add Words To Stock">
+        </div>
+        <div class="specNewspaper">
+            <h3>New Words from Alzazira</h3>
+            <ol id="alzaziraOutput"></ol>
+            <h3>Picked Sentences</h3>
+            <ol id="alzaziraSentsOutput"></ol>
+            <input type="button" class="addBtn" id="alzaziraStock" value="Add Words To Stock">
+        </div>
+    </section>
+
+    <section>
+        <input type="button" id="downloadStock" value="Download Stock">
+    </section>
+    
+    <script src="filter2.js"></script>
+</body>
+</html>

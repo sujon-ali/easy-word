@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Easy Word</title>
+</head>
+<body>
+    <section id="pageChanger">
+        <a href="./index2.html">Choose From Newspaper</a>
+    </section>
+    <section class="section">
+        <label for="inputField"><h2>Input Writings</h2><br>
+            <textarea name="inputField" id="inputField"></textarea>
+        </label><br>
+        <input type="button" value="Submit" id="submitButton">
+        <div  class="manualOutput">
+            <h3>New Words</h3>
+            <ol id="manualOutput"></ol>
+            <h3>Picked Sentences</h3>
+            <ol id="manualSentsOutput"></ol>
+            <input type="button" class="addBtn" id="manualStock" value="Add New Words To Stock">
+        </div>
+    </section>
+
+    <section>
+        <input type="button" id="downloadStock" value="Download Stock">
+    </section>
+    
+    <script src="filter.js"></script>
+</body>
+</html>
